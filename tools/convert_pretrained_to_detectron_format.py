@@ -1,0 +1,1 @@
+/home/shoval/Documents/Repositories/LOST/tools/convert_pretrained_to_detectron_format.py

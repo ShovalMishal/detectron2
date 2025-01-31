@@ -1,0 +1,1 @@
+/home/shoval/Documents/Repositories/LOST/tools/train_net_for_LOST_CAD.py

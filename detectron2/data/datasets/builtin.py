@@ -34,6 +34,17 @@ from .pascal_voc import register_pascal_voc
 _PREDEFINED_SPLITS_COCO = {}
 _PREDEFINED_SPLITS_COCO["coco"] = {
     "coco_2014_train": ("coco/train2014", "coco/annotations/instances_train2014.json"),
+    "dota_train": ("/home/shoval/Documents/Repositories/data/gsd_02_normalized_dataset_rotated/train/images", "/home/shoval/Documents/Repositories/data/gsd_02_normalized_dataset_rotated/train/annotations/instances.json"),
+    "dota04_train": ("/home/shoval/Documents/Repositories/data/gsd_04_normalized_dataset_rotated/train/images", "/home/shoval/Documents/Repositories/data/gsd_04_normalized_dataset_rotated/train/annotations/instances.json"),
+    "dota_test": ("/home/shoval/Documents/Repositories/data/gsd_02_normalized_dataset_rotated/test/images", "/home/shoval/Documents/Repositories/data/gsd_02_normalized_dataset_rotated/test/annotations/instances.json"),
+    "dota04_test": ("/home/shoval/Documents/Repositories/data/gsd_04_normalized_dataset_rotated/test/images", "/home/shoval/Documents/Repositories/data/gsd_04_normalized_dataset_rotated/test/annotations/instances.json"),
+    "dota055_test": ("/home/shoval/Documents/Repositories/data/gsd_055_normalized_dataset_rotated/test/images", "/home/shoval/Documents/Repositories/data/gsd_055_normalized_dataset_rotated/test/annotations/instances.json"),
+    "dota08_test": ("/home/shoval/Documents/Repositories/data/gsd_08_normalized_dataset_rotated/test/images", "/home/shoval/Documents/Repositories/data/gsd_08_normalized_dataset_rotated/test/annotations/instances.json"),
+    "dota10_test": ("/home/shoval/Documents/Repositories/data/gsd_10_normalized_dataset_rotated/test/images", "/home/shoval/Documents/Repositories/data/gsd_10_normalized_dataset_rotated/test/annotations/instances.json"),
+    "dota_ss_test": ("/home/shoval/Documents/Repositories/data/DOTAV2_ss/test/images", "/home/shoval/Documents/Repositories/data/DOTAV2_ss/test/annotations/instances.json"),
+    "dota_ms_normalized_test": ("/home/shoval/Documents/Repositories/data/multiscale_normalized_dataset_rotated/test/images", "/home/shoval/Documents/Repositories/data/multiscale_normalized_dataset_rotated/test/annotations/instances.json"),
+
+
     "coco_2014_val": ("coco/val2014", "coco/annotations/instances_val2014.json"),
     "coco_2014_minival": ("coco/val2014", "coco/annotations/instances_minival2014.json"),
     "coco_2014_valminusminival": (

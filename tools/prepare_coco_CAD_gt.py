@@ -1,0 +1,1 @@
+/home/shoval/Documents/Repositories/LOST/tools/prepare_coco_CAD_gt.py
